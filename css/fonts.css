@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Hello Twins - Personal Use';
+    src: url('../fonts/HelloTwins-Regular.woff2') format('woff2'),
+        url('../fonts/HelloTwins-Regular.woff') format('woff'),
+        url('../fonts/HelloTwins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DePixel';
+    src: url('../fonts/DePixel-Klein.woff2') format('woff2'),
+        url('../fonts/DePixel-Klein.woff') format('woff'),
+        url('../fonts/DePixel-Klein.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

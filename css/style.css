@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    user-select: none;
+}
+
+h1 {
+    font-family: 'Hello Twins - Personal Use';
+    cursor: default;
+    font-size: 10vh;
+    display: flex;
+    color: red;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-shadow: 1px 1px 1px orange, 2px 2px 1px yellow, 3px 3px 1px green, 4px 4px 1px blue, 5px 5px 1px purple;
+}
+
+h2 {
+    font-family: 'Hello Twins - Personal Use';
+    color: white;
+    cursor: default;
+    font-size: 5vh;
+    margin: 0 auto;
+}
+
+#screen {
+    border: 1px solid rgb(220, 185, 149);
+    border-radius: 20px;
+    height: 150px;
+    display: flex;
+    color: rgb(220, 185, 149);
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    margin: 30px;
+    padding: 0;
+    cursor: default;
+    font-family: 'DePixel';
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    padding: 0;
+    background-color: black;
+    font-family: 'Hello Twins - Personal Use';
+}
+
+button:hover {
+    text-shadow: 0px 0px 25px rgb(86, 184, 220);
+    cursor: pointer;
+    animation-name: scaling;
+    animation-duration: 0.5s;
+    transform: scale(1.2);
+}
+
+@keyframes scaling {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
